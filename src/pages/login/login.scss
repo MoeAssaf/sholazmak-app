@@ -1,0 +1,45 @@
+page-login {
+  .content{
+    padding-bottom: 0 !important;
+
+  }
+  .blur{
+    background-color: map-get($colors, secondary);
+    background-image: url('https://wallpaperscraft.com/image/girl_street_shopping_cape_town_38679_750x1334.jpg');
+    background-size: 110% 110%;
+    position: fixed;
+    border-radius: 0px;
+    // -moz-filter: blur(20px);
+    // -o-filter: blur(20px);
+    // -ms-filter: blur(20px);
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    z-index: -1;
+
+  }
+  .container{
+
+    width:100%;
+    background-color: map-get($colors, primaryt);
+    border-radius: 0px;
+    z-index: 2;
+
+
+    //background-image:url('https://png.pngtree.com/thumb_back/fw800/back_pic/03/99/29/3057f86d1633ee1.jpg')
+  }
+  .button1{
+    width:40%;
+    border-radius: 10px;
+    margin-left: 30%
+  }
+  .icon{
+    font-size: 30px
+  }
+  .field{
+   border-radius: 10px;
+
+  }
+  .h1{
+    color: white;
+  }
+}

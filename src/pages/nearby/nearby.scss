@@ -1,0 +1,16 @@
+page-nearby {
+  .navbar{text-align: center;}
+  .searchbar{width:100%;
+            margin: 0 0%;
+            background-color: map-get($colors, light);
+            border-radius: 10px}
+  .ad{width: 100%;
+  }
+  .slide{display: block;}
+  .button{width:100%;
+          padding:10px}
+  .footer{background-color: (map-get($colors, primary));
+          position: fixed}
+  #map{height:100%;width:100%;
+  }
+}
